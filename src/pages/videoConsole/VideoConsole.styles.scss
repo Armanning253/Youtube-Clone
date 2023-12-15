@@ -1,0 +1,50 @@
+.videoConsole {
+    background-color:rgb(17, 17, 17) ;
+    color: rgb(222, 222, 222);
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 5rem ;
+    padding-top: 2.5rem;
+}
+.consoleVertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.consoleNav {
+    color: red;
+    background-color: rgb(31, 29, 29);
+    position: absolute;
+    left: 50%;
+    top:85%;
+    button{
+        color: rgb(222, 222, 222);
+        background-color: rgb(129, 24, 24);
+        border: none;
+        height: 2rem;
+        margin: 4px;
+        padding: .5rem;
+        border-radius: .5rem;
+        transition: 300ms;
+        &:hover {
+            transform: scale(1.05);
+            background-color: rgb(105, 15, 15);
+            cursor: pointer;
+        }
+    }
+}
+.consoleDisplay {
+    display: flex;
+}
+.consolePlayer {
+    width: 60vw;
+
+}
+.videoBig {
+    
+    
+}
+
+.consoleList {
+    width: 25vw;
+}
