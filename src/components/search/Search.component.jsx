@@ -59,7 +59,7 @@ const Search = ({ onTermSubmit }) => {
             <div className={openMenu ? "searchMenu active" : "searchMenu"}>
                 <span>
                     <BsList onClick={() => { handleMenuSlide() }} className='searchBars searchIcons' />
-                    <Link to="/youtube-clone" className='toolTip'>
+                    <Link to="/" className='toolTip'>
                         <div className='logo'><FaYoutube className='logoIcon searchIcons' />YouTube</div>
                         <p className='toolTipText'>YouTube Home</p>
                     </Link>
@@ -72,7 +72,7 @@ const Search = ({ onTermSubmit }) => {
             <div className={overlay ? 'overlay' : ''} ></div>
 
             {/* -------- YOUTUBE LOGO ICON ----------- */}
-            <Link to="/youtube-clone" className='toolTip'>
+            <Link to="/" className='toolTip'>
                 <div className='logo'><FaYoutube className='logoIcon searchIcons' />YouTube</div>
                 <p className='toolTipText'>YouTube Home</p>
             </Link>

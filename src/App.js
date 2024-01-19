@@ -33,7 +33,7 @@ class App extends React.Component {
 
         <Search onTermSubmit={this.onTermSubmit} />
         <Routes>
-          <Route path="/youtube-clone" element={<VideoConsole videos={this.state.videos} />
+          <Route path="/" element={<VideoConsole videos={this.state.videos} />
           }>
           </Route>
         </Routes>
